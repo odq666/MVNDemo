@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../AjaxDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/../HotelSysDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/../MVNDemo" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../weibo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../AjaxDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../MVNDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../HotelSysDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/../hotelBoot/pom.xml" />
+        <option value="$PROJECT_DIR$/../weibo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../out" />
+  </component>
+</project>

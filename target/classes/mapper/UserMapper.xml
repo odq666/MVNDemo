@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--SQL 配置文件 -->
+<mapper namespace="com.csdj.ssm.mapper.UserMapper">
+
+    <resultMap id="userMap" type="sysUser">
+        <id property="uid" column="uid"/>
+        <result property="uname" column="uname"/>
+        <result property="upwd" column="upwd"/>
+        <result property="uimg" column="uimg"/>
+        <result property="ucreateTime" column="ucreateTime"/>
+        <result property="urole" column="urole"/>
+    </resultMap>
+
+    <select id="getUserByUname" resultMap="userMap">
+        select uid,uname,upwd,uimg,ucreateTime,urole from sys_user
+        where uname = #{uname}
+    </select>
+
+    <insert id="addUser">
+        <selectKey keyProperty="uid" resultType="Integer" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+
+        insert into sys_user(uname,upwd,uimg,ucreateTime,urole)
+        values(#{uname},#{upwd},#{uimg},#{ucreateTime},#{urole})
+    </insert>
+
+    <select id="getAllUsers" resultMap="userMap">
+        select uid,uname,upwd,uimg,ucreateTime,urole from sys_user
+        order by uid desc
+    </select>
+</mapper>

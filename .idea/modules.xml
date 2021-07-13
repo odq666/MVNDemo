@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AjaxDemo/AjaxDemo.iml" filepath="$PROJECT_DIR$/../AjaxDemo/AjaxDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../HotelSysDemo/HotelSysDemo.iml" filepath="$PROJECT_DIR$/../HotelSysDemo/HotelSysDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MVNDemo/MVNDemo.iml" filepath="$PROJECT_DIR$/../MVNDemo/MVNDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSMDemo.iml" filepath="$PROJECT_DIR$/SSMDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ServletDemo/ServletDemo.iml" filepath="$PROJECT_DIR$/../ServletDemo/ServletDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hotelBoot/hotelBoot.iml" filepath="$PROJECT_DIR$/../hotelBoot/hotelBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../weibo/weibo.iml" filepath="$PROJECT_DIR$/../weibo/weibo.iml" />
+    </modules>
+  </component>
+</project>
